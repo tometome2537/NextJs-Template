@@ -7,13 +7,7 @@ export default async function RootLayout({
 }) {
     return (
         <html lang="ja">
-            <head>
-                <meta
-                    name="viewport"
-                    content="initial-scale=1, width=device-width"
-                />
-                <meta charSet="UTF-8" />
-            </head>
+            {/* <head></head> */}
             <body>{children}</body>
         </html>
     );
