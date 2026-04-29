@@ -1,28 +1,29 @@
 {
-  "name": "example-nextjs-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "update": "npm update --save && npm outdated",
-    "lint": "biome lint .",
-    "format": "biome format . --write",
-    "check": "biome check ."
-  },
-  "engines": {
-    "node": ">=24.0.0"
-  },
-  "dependencies": {
-    "next": "^16.2.3",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "~2.4.8",
-    "@types/node": "^24.12.2",
-    "@types/react": "^19.2.14",
-    "typescript": "^6.0.2"
-  }
+	"name": "example-nextjs-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"update": "npm update --save && npm outdated",
+		"lint": "biome lint --write",
+		"format": "biome format --write",
+		"check": "biome check --write"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=24.0.0"
+	},
+	"dependencies": {
+		"next": "^16.2.3",
+		"react": "^19.2.5",
+		"react-dom": "^19.2.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "~2.4.13",
+		"@types/node": "^24.12.2",
+		"@types/react": "^19.2.14",
+		"typescript": "^6.0.2"
+	}
 }

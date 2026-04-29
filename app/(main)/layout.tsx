@@ -3,13 +3,13 @@
 import { useEffect, useState } from "react";
 
 export default function RootLayout({
-    children,
+	children,
 }: {
-    children: React.ReactNode;
+	children: React.ReactNode;
 }) {
-    return (
-        <>
-            <h1>example-nextjs-app</h1>
-        </>
-    );
+	return (
+		<>
+			<h1>example-nextjs-app</h1>
+		</>
+	);
 }
